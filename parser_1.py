@@ -23,9 +23,11 @@ def extract_pdf_data(pdf_file):
         
     college_data = re.findall(r'(\d+)\s+(\w+\s+\w+)\s+(\d+)', pdf_text)
   
+  
    
     return pdf_text
-
+def  mainlogichere(self):
+    pass
 
 pdf_file = '/Users/simrandeepsingh/python_project_Parser/NIRF_BTECH_PDF_1.pdf'
 college_data = extract_pdf_data(pdf_file)
